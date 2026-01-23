@@ -1,0 +1,70 @@
+/* files.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 60px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.file-row {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.file-row:last-child {
+    border-bottom: none;
+}
+
+.file-row span {
+    font-weight: bold;
+}
+
+.file-row a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 13px;
+}
+
+.file-row a:hover {
+    text-decoration: underline;
+}
+
+.no-files {
+    text-align: center;
+    color: #777;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+a {
+    text-decoration: none;
+}
