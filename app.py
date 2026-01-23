@@ -41,7 +41,7 @@ def create_table():
 @app.route('/')
 def upload_file():
 
-    return render_template('upload.html')
+    return render_template('index.html')
 
 @app.route('/upload',methods=['POST'])
 def upload():
@@ -70,7 +70,7 @@ def upload():
     if cursor.fetchone():
         cursor.close()
         db_config.close()
-        return render_template('upload.html',msg = "File Already Exists")
+        return render_template('index.html',msg = "File Already Exists")
 
 
     #insert file metadata into table
